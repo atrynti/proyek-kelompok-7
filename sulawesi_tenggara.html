@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sulawesi Tenggara</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    html, body {
+      height: 100%; 
+      margin: 0;
+    }
+    body {
+      background-image: url('latar_utama.png'); 
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      min-height: 100%;
+    }
+    .navbar {
+      background-color: rgba(135, 45, 45, 0.8);
+      font-family: 'Times New Roman', Times, serif; 
+    }
+    h1.text-black {
+      text-align: center; 
+      color: black; 
+      font-weight: bold;
+    }
+
+    p {
+      text-align: justify; 
+    }
+    .text-black {
+      color: #0e0101; 
+    }
+    .custom-container { 
+      padding: 20px;
+      border-radius: 5px;
+      background-color: rgba(236, 214, 190, 0.9); 
+    }
+    .dance-card {
+      margin: 15px 0;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      transition: transform 0.3s;
+      cursor: pointer;
+      color: inherit;
+    }
+    .dance-card:hover {
+      transform: scale(1.05); 
+    }
+    .dance-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 10px 10px 0 0;
+    }
+    .dance-card-title {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: black; 
+    transition: color 0.3s ease; 
+    }
+    .dance-card-title:hover {
+        color:  rgba(135, 45, 45, 0.8); 
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html" style="color: beige;"><b>KEMBALI KE BERANDA</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+  <div class="container mt-4 custom-container">
+    <h1><b>Sulawesi Tenggara</b></h1>
+    <p>Jenis-jenis tarian dari Sulawesi Tenggara.</p>
+
+    <div class="row">
+      <div class="col-md-4">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalKaria">
+          <img src="tari_karia.png" alt="Tari Karia">
+          <div class="dance-card-title"><b>Tari Karia</b></div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalMondotambe">
+          <img src="tari_mondotambe.png" alt="Tari Mondotambe">
+          <div class="dance-card-title"><b>Tari Mondotambe</b></div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalLumense">
+          <img src="tari_lumense.png" alt="Tari Lumense">
+          <div class="dance-card-title"><b>Tari Lumense</b></div>
+        </a>
+      </div>
+      <div class="col-md-4 mt-3">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalKonga">
+          <img src="tari_konga.png" alt="Tari Konga">
+          <div class="dance-card-title"><b>Tari Konga</b></div>
+        </a>
+      </div>
+      <div class="col-md-4 mt-3">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalEmpatEtnis">
+          <img src="tari_empat_etnis_sulawesi_tenggara.png" alt="Tari Empat Etnis">
+          <div class="dance-card-title"><b>Tari Empat Etnis Sulawesi Tenggara</b></div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="modalKaria" tabindex="-1" aria-labelledby="modalKariaLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalKariaLabel"><b>Tari Karia</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tari Karia adalah salah satu tarian tradisional yang berasal dari Sulawesi Tenggara, khususnya dari suku Tolaki. Tarian ini biasanya ditampilkan dalam berbagai upacara adat dan perayaan, seperti penyambutan tamu, pernikahan, dan festival budaya. Tari Karia menggambarkan kebahagiaan dan semangat masyarakat Tolaki dalam merayakan momen penting dalam kehidupan mereka.</p>
+          <p>Gerakan dalam Tari Karia cenderung energik dan dinamis, mengekspresikan keceriaan dan kehangatan komunitas. Para penari, baik pria maupun wanita, mengenakan pakaian adat yang indah dan berwarna cerah, lengkap dengan aksesoris tradisional yang mempercantik penampilan. Musik pengiring, yang biasanya terdiri dari alat musik tradisional seperti gendang, gong, dan seruling, menambah suasana meriah dan menggugah semangat.</p>
+          <p>Tari Karia tidak hanya berfungsi sebagai hiburan, tetapi juga memiliki makna sosial dan budaya yang mendalam. Tarian ini mencerminkan nilai-nilai kebersamaan, rasa syukur, dan kearifan lokal yang menjadi bagian integral dari kehidupan masyarakat Sulawesi Tenggara. Dengan mempertunjukkan Tari Karia, masyarakat Tolaki menjaga dan melestarikan tradisi serta identitas budaya mereka.</p>
+          <p>Sebagai warisan budaya yang kaya, Tari Karia terus dilestarikan melalui berbagai pertunjukan, baik di tingkat lokal maupun nasional, sehingga dapat dikenal oleh generasi muda dan masyarakat luas. Tarian ini menjadi salah satu simbol kekayaan budaya Sulawesi Tenggara yang patut dibanggakan dan dipertahankan.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/h2B6SqYFUO0" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalMondotambe" tabindex="-1" aria-labelledby="modalMondotambeLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalMondotambeLabel"><b>Tari Mondotambe</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tari Mondotambe adalah tarian tradisional yang berasal dari Sulawesi Tenggara, khususnya dari suku Buton. Tarian ini sering dipertunjukkan dalam berbagai upacara adat, festival budaya, dan acara perayaan, seperti penyambutan tamu dan pernikahan. Tari Mondotambe menggambarkan keindahan dan kekayaan budaya masyarakat Buton yang kaya akan nilai-nilai lokal.</p>
+          <p>Gerakan dalam Tari Mondotambe terinspirasi oleh gerakan alam dan kehidupan sehari-hari masyarakat. Para penari biasanya mengenakan pakaian adat yang berwarna cerah dan dihiasi dengan berbagai aksesori tradisional. Tarian ini diiringi oleh musik pengiring yang menggunakan alat musik tradisional, seperti gendang dan alat musik tiup, yang menciptakan suasana meriah dan energetik.</p>
+          <p>Tari Mondotambe memiliki makna simbolis yang mendalam, menggambarkan rasa syukur, persatuan, dan kebersamaan dalam komunitas. Melalui tarian ini, masyarakat Buton menyampaikan pesan-pesan moral dan nilai-nilai kehidupan yang penting untuk dijaga dan dilestarikan.</p>
+          <p>Sebagai bagian dari warisan budaya Sulawesi Tenggara, Tari Mondotambe terus dipertahankan dan diperkenalkan kepada generasi muda melalui berbagai festival dan pertunjukan budaya. Tarian ini menjadi salah satu cara untuk menjaga identitas budaya Buton dan memperkenalkan kekayaan tradisi Sulawesi Tenggara kepada masyarakat luas.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/LJzEpdxaAnc" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalLumense" tabindex="-1" aria-labelledby="modalLumenseLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalLumenseLabel"><b>Tari Lumense</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tari Lumense adalah salah satu tarian tradisional yang berasal dari Sulawesi Tenggara, khususnya dari suku Wakatobi. Tarian ini sering ditampilkan dalam berbagai acara adat dan perayaan, termasuk pesta pernikahan, penyambutan tamu, dan festival budaya. Tari Lumense menggambarkan kebahagiaan dan keramahtamahan masyarakat setempat, serta melambangkan kekayaan budaya dan kearifan lokal.</p>
+          <p>Gerakan dalam Tari Lumense cenderung lembut dan anggun, mencerminkan keindahan alam serta harmoni dalam kehidupan sehari-hari. Para penari, baik pria maupun wanita, mengenakan pakaian adat yang dihiasi dengan ornamen tradisional yang berwarna cerah. Iringan musik terdiri dari alat musik tradisional seperti gendang, gong, dan alat musik tiup yang menciptakan suasana meriah dan menyenangkan.</p>
+          <p>Tari Lumense tidak hanya sekadar pertunjukan seni, tetapi juga memiliki makna sosial yang mendalam. Tarian ini menjadi simbol persatuan dan kebersamaan dalam komunitas, serta mengajarkan nilai-nilai kebudayaan yang penting untuk dilestarikan oleh generasi mendatang.</p>
+          <p>Sebagai bagian dari warisan budaya Sulawesi Tenggara, Tari Lumense terus dilestarikan melalui berbagai pertunjukan dan festival, menjaga agar tradisi ini tetap hidup dan dikenal oleh masyarakat luas. Tarian ini menjadi salah satu representasi kekayaan budaya Sulawesi Tenggara yang patut dibanggakan dan dijaga keberlangsungannya.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/AFgChPRG3FQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalKonga" tabindex="-1" aria-labelledby="modalKongaLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalKongaLabel"><b>Tari Konga</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tari Konga adalah salah satu tarian tradisional yang berasal dari Sulawesi Tenggara, khususnya dari suku Buton. Tarian ini sering dipertunjukkan dalam acara-acara adat, festival budaya, dan perayaan, seperti penyambutan tamu dan upacara pernikahan. Tari Konga melambangkan kebersamaan, kegembiraan, dan semangat masyarakat Buton dalam merayakan momen-momen penting dalam kehidupan.</p>
+          <p>Gerakan dalam Tari Konga cenderung energik dan dinamis, mencerminkan semangat dan keaktifan komunitas. Para penari, baik pria maupun wanita, mengenakan pakaian adat yang berwarna cerah dan dihiasi dengan aksesori tradisional, seperti kalung dan hiasan kepala. Tarian ini diiringi oleh musik pengiring yang menggunakan alat musik tradisional, seperti gendang, gong, dan alat musik tiup, menciptakan suasana meriah dan mengundang keceriaan.</p>
+          <p>Tari Konga juga memiliki makna simbolis yang mendalam, menggambarkan nilai-nilai kekeluargaan dan solidaritas dalam masyarakat. Melalui tarian ini, masyarakat Buton mengekspresikan rasa syukur atas kehidupan dan hubungan sosial yang erat.</p>
+          <p>Sebagai bagian dari warisan budaya Sulawesi Tenggara, Tari Konga terus dilestarikan dan diperkenalkan kepada generasi muda melalui berbagai festival dan pertunjukan budaya. Tarian ini menjadi salah satu cara untuk menjaga identitas budaya Buton dan memperkenalkan kekayaan tradisi Sulawesi Tenggara kepada dunia luar.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/WYFJpI_MQ7E" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalEmpatEtnis" tabindex="-1" aria-labelledby="modalEmpatEtnisLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalEmpatEtnisLabel"><b>Tari Empat Etnis Sulawesi Tenggara</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Sulawesi Tenggara adalah daerah yang kaya akan budaya dan tradisi, dengan berbagai etnis yang masing-masing memiliki tarian khas. Empat etnis utama di Sulawesi Tenggara—Buton, Tolaki, Wakatobi, dan Muna—memiliki tarian yang mencerminkan keunikan dan nilai-nilai budaya mereka.</p>
+          <p>Tari Konga (Buton): Tari Konga merupakan tarian yang energik dan dinamis, sering dipertunjukkan dalam upacara adat dan perayaan. Tarian ini melambangkan kebersamaan dan kegembiraan masyarakat Buton, diiringi musik tradisional yang menghidupkan suasana.</p>
+          <p>Tari Lumense (Wakatobi): Tarian ini menampilkan gerakan lembut dan anggun, mencerminkan keindahan alam dan kehidupan sehari-hari masyarakat Wakatobi. Tari Lumense sering ditampilkan dalam acara pernikahan dan penyambutan tamu, menjadi simbol keramahtamahan dan kebahagiaan.</p>
+          <p>Tari Naga (Tolaki): Tari Naga adalah tarian yang mengisahkan kekuatan dan keberanian. Tarian ini diiringi oleh alat musik tradisional dan sering ditampilkan dalam acara-acara adat. Gerakan tarian ini menggambarkan semangat juang masyarakat Tolaki.</p>
+          <p>Tari Pusaka (Muna): Tari Pusaka memiliki makna yang dalam, sering ditampilkan dalam upacara adat dan ritual keagamaan. Tarian ini mencerminkan penghormatan kepada leluhur dan alam, dengan gerakan yang sakral dan khidmat.</p>
+          <p>Keempat tarian ini tidak hanya berfungsi sebagai hiburan, tetapi juga sebagai sarana untuk menjaga dan melestarikan warisan budaya masing-masing etnis. Dalam festival budaya, tarian-tarian ini sering ditampilkan untuk memperkenalkan kekayaan tradisi Sulawesi Tenggara kepada generasi muda dan masyarakat luas. Melalui tarian, identitas budaya Sulawesi Tenggara tetap hidup dan dihargai dalam perkembangan zaman.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/rAwPhQcX0eQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
