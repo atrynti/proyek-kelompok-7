@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sulawesi Tengah</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    html, body {
+      height: 100%; 
+      margin: 0;
+    }
+    body {
+      background-image: url('latar_utama.png'); 
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      min-height: 100%;
+    }
+    .navbar {
+      background-color: rgba(135, 45, 45, 0.8);
+      font-family: 'Times New Roman', Times, serif; 
+    }
+    h1.text-black {
+      text-align: center; 
+      color: black; 
+      font-weight: bold; 
+    }
+
+    p {
+      text-align: justify;
+    }
+    .text-black {
+      color: #0e0101;  
+    }
+    .custom-container {
+      padding: 20px;
+      border-radius: 5px;
+      background-color: rgba(236, 214, 190, 0.9); 
+    }
+    .dance-card {
+      margin: 15px 0;
+      border-radius: 10px;
+      transition: transform 0.3s;
+      cursor: pointer;
+      color: inherit;
+    }
+    .dance-card:hover {
+      transform: scale(1.05); 
+    }
+    .dance-card img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px 10px 0 0;
+    }
+    .dance-card-title {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: black; 
+    transition: color 0.3s ease; 
+    }
+    .dance-card-title:hover {
+        color:  rgba(135, 45, 45, 0.8); 
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html" style="color: beige;"><b>KEMBALI KE BERANDA</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+  <div class="container mt-4 custom-container">
+    <h1><b>Sulawesi Tengah</b></h1>
+    <p>Jenis-jenis tarian dari Sulawesi Tengah.</p>
+
+    <div class="row">
+      <div class="col-md-4">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalSaronde">
+          <img src="tari_saronde.png" alt="Tari Saronde">
+          <div class="dance-card-title"><b>Tari Saronde</b></div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalHulonthaloLipu">
+          <img src="tari_hulonthalo_lipu'u.png" alt="Tari Hulonthalo Lipu'u">
+          <div class="dance-card-title"><b>Tari Hulonthalo Lipu'u</b></div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalDanaDana">
+          <img src="tari_dana-dana.png" alt="Tari Dana-Dana">
+          <div class="dance-card-title"><b>Tari Dana-Dana</b></div>
+        </a>
+      </div>
+      <div class="col-md-4 mt-3">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalTidiLoOayabu">
+          <img src="tari_tidi_lo_o'ayabu.png" alt="Tari Tidi Lo O'ayabu">
+          <div class="dance-card-title"><b>Tari Tidi Lo O'ayabu</b></div>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+ 
+  <div class="modal fade" id="modalSaronde" tabindex="-1" aria-labelledby="modalSarondeLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalSarondeLabel"><b>Tari Saronde</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tari Saronde adalah tarian tradisional yang berasal dari Gorontalo, Sulawesi, yang sering dipertunjukkan dalam berbagai acara adat, festival budaya, dan perayaan penting. Tarian ini melambangkan kebersamaan, keramahtamahan, dan kekayaan budaya masyarakat Gorontalo.</p>
+          <p>Tari Saronde dikenal dengan gerakan yang anggun dan dinamis, mencerminkan semangat serta keceriaan para penari. Biasanya, para penari mengenakan pakaian adat Gorontalo yang berwarna cerah dan dihiasi dengan aksesori tradisional. Tarian ini diiringi oleh musik pengiring yang menggunakan alat musik lokal, seperti gendang, kecapi, dan alat musik tiup, yang menciptakan suasana meriah.</p>
+          <p>Salah satu ciri khas dari Tari Saronde adalah interaksi antara penari, di mana gerakan tangan dan tubuh saling melengkapi untuk menciptakan harmoni. Tarian ini menggambarkan nilai-nilai kekeluargaan dan saling menghormati dalam masyarakat Gorontalo, serta mengajak penonton untuk merasakan kehangatan budaya lokal.</p>
+          <p>Tari Saronde tidak hanya sebagai hiburan, tetapi juga berfungsi sebagai cara untuk melestarikan tradisi dan nilai-nilai budaya. Melalui pertunjukan tari ini, generasi muda diharapkan dapat mengenal dan menghargai warisan budaya mereka.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/QSssVDheaCo" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalHulonthaloLipu" tabindex="-1" aria-labelledby="modalHulonthaloLipuLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalHulonthaloLipuLabel"><b>Tari Hulonthalo Lipu'u</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tari Hulonthalo Lipu'u adalah salah satu tarian tradisional yang berasal dari Gorontalo, yang mencerminkan kekayaan budaya dan nilai-nilai sosial masyarakat setempat. Tarian ini sering ditampilkan dalam berbagai acara adat, seperti upacara pernikahan, festival budaya, dan perayaan penting lainnya, sebagai ungkapan syukur dan kebersamaan.</p>
+          <p>Tari Hulonthalo Lipu'u memiliki gerakan yang anggun dan penuh makna, menggambarkan interaksi dan harmoni antara penari. Para penari biasanya mengenakan pakaian adat Gorontalo yang berwarna cerah, lengkap dengan aksesori tradisional yang indah. Tarian ini diiringi oleh musik pengiring yang menggunakan alat musik lokal, seperti gendang, kecapi, dan alat musik tiup, yang menambah suasana meriah.</p>
+          <p>Salah satu ciri khas dari Tari Hulonthalo Lipu'u adalah penggunaan gerakan yang menggambarkan kehidupan sehari-hari masyarakat, serta ritual adat yang kaya akan nilai-nilai kebudayaan. Tarian ini juga menonjolkan rasa persatuan dan kebersamaan dalam komunitas, serta mengajarkan pentingnya saling menghormati.</p>
+          <p>Tari Hulonthalo Lipu'u bukan hanya sekadar hiburan, tetapi juga berfungsi sebagai sarana untuk melestarikan budaya dan tradisi Gorontalo.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/3iYI_mwp3hA" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalDanaDana" tabindex="-1" aria-labelledby="modalDanaDanaLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalDanaDanaLabel"><b>Tari Dana-Dana</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tari Dana-Dana merupakan tarian tradisional yang berasal dari Sulawesi Tengah, yang biasanya ditampilkan dalam acara adat dan festival budaya. Tarian ini melambangkan kegembiraan dan kerukunan masyarakat dalam perayaan penting, seperti panen raya atau acara keluarga.</p>
+          <p>Gerakan Tari Dana-Dana sangat dinamis dan energik, mencerminkan semangat para penari yang saling berinteraksi. Para penari biasanya mengenakan pakaian adat yang berwarna-warni dan dihiasi dengan aksesori khas daerah, menjadikan pertunjukan ini semakin menarik untuk disaksikan.</p>
+          <p>Tari Dana-Dana diiringi oleh alat musik tradisional, seperti gendang, gong, dan alat musik tiup yang menghasilkan irama yang meriah dan menggembirakan. Tarian ini tidak hanya sebagai hiburan, tetapi juga sebagai sarana untuk melestarikan budaya dan tradisi lokal.</p>
+          <p>Tari Dana-Dana bukan hanya sekadar pertunjukan seni, tetapi juga berfungsi sebagai sarana untuk melestarikan budaya dan tradisi Gorontalo. Melalui pertunjukan ini, generasi muda diharapkan dapat mengenali dan menghargai warisan budaya mereka. Tarian ini menjadi simbol kekayaan budaya Gorontalo yang patut dipertahankan dan diperkenalkan kepada masyarakat luas.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/_MHzsQGNTdc" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalTidiLoOayabu" tabindex="-1" aria-labelledby="modalTidiLoOayabuLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalTidiLoOayabuLabel"><b>Tari Tidi Lo O'ayabu</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tari Tidi Lo O'ayabu adalah salah satu tarian yang berasal dari Sulawesi Tengah, yang sering ditampilkan dalam upacara adat dan perayaan budaya. Tarian ini menggambarkan keceriaan dan kebersamaan masyarakat dalam merayakan momen-momen penting dalam hidup mereka.</p>
+          <p>Gerakan dalam Tari Tidi Lo O'ayabu sangat beragam dan penuh ekspresi, mencerminkan dinamika kehidupan sehari-hari masyarakat setempat. Para penari biasanya mengenakan pakaian adat yang mencolok dan dihiasi dengan aksesori yang menarik, memberikan nuansa yang ceria pada pertunjukan.</p>
+          <p>Tari ini diiringi oleh musik tradisional yang menambah semarak pertunjukan, dengan alat musik seperti gendang, seruling, dan alat musik tiup lainnya. Melalui tari ini, masyarakat menyampaikan pesan-pesan kebudayaan dan nilai-nilai sosial yang mereka junjung tinggi.</p>
+          <p>Tari Tidi Lo O'ayabu bukan hanya sekadar hiburan, tetapi juga berfungsi sebagai sarana untuk melestarikan budaya dan tradisi Gorontalo. Melalui pertunjukan tari ini, generasi muda diharapkan dapat menghargai dan meneruskan warisan budaya mereka. Tarian ini menjadi salah satu representasi penting dari kekayaan budaya Gorontalo yang patut dibanggakan dan dilestarikan.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/J99ZgGUffIM" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
