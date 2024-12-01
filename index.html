@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BERANDA</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    html, body {
+      height: 100%;
+    }
+    body {
+      background-image: url('latar_utama.png'); 
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      min-height: 100%;
+    }
+    .navbar {
+      background-color: rgba(135, 45, 45, 0.8);
+      font-family: 'Times New Roman', Times, serif;  
+    }
+   
+    h1.text-black {
+      text-align: center;
+      color: black;
+      font-weight: bold;
+    }
+
+    p {
+      text-align: justify; 
+    }
+    .text-black {
+      color: #0e0a01; 
+    }
+    .custom-container {
+      padding: 20px;
+      border-radius: 5px;
+      background-color: rgba(236, 214, 190, 0.9); 
+    }
+    .region-card { 
+    margin: 10px;
+    border: 2px solid rgba(183, 43, 12, 0.8); 
+    border-radius: 20px;
+    background-color: rgba(133, 51, 51, 0.8);
+    transition: transform 0.3s, color 0.3s;
+    color: white;
+    }
+    .region-card:hover {
+    color: black;
+    transform: scale(1.05); 
+    }
+    .custom-footer {
+      padding: 20px;
+      border-radius: 5px;
+      background-color: rgba(236, 214, 190, 0.9);
+      color: #0e0a01;
+      margin-top: 20px;
+    }
+
+    .custom-footer p {
+      text-align: center;
+    }
+    .custom-footer .btn-outline-dark {
+    background-color: rgba(135, 45, 45, 0.8);
+    border-color: rgba(183, 43, 12, 0.8);
+    color: white;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <h2><b style="color: beige;">PESONA TARI SULAWESI</b></h2>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="informasi.html" style="color: beige;"><b>Informasi</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pendaftaran.html" style="color: beige;"><b>Pendaftaran</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kontak.html" style="color: beige;"><b>Kontak</b></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-4 custom-container">
+    <h1 class="text-black"><b>Selamat datang di Pesona Tari Sulawesi</b></h1>
+    <p>Selamat datang di dunia yang memukau dari tarian Sulawesi! Di sini, kami merayakan kekayaan budaya dan seni yang mengagumkan dari pulau Sulawesi. Dari gerakan yang anggun hingga kostum yang berwarna-warni, setiap tarian memiliki cerita dan makna mendalam yang mencerminkan tradisi dan warisan nenek moyang kita. Kami memberikan akses mempermudah anda dalam menjelajahi berbagai jenis tari, memahami sejarahnya, dan menikmati keindahan setiap pertunjukan. Kami berharap Anda merasakan pesona dan semangat yang mengalir melalui setiap langkah tari yang dipersembahkan.</p>
+    <p>Selamat menjelajahi!</p>
+
+    <div class="row">
+      <div class="col-md-4">
+        <a href="sulawesi_selatan.html" class="card region-card">
+          <div class="card-body text-center">
+            <h4 class="card-title"><b>Sulawesi Selatan</b></h4>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="sulawesi_barat.html" class="card region-card">
+          <div class="card-body text-center">
+            <h4 class="card-title"><b>Sulawesi Barat</b></h4>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="sulawesi_tengah.html" class="card region-card">
+          <div class="card-body text-center">
+            <h4 class="card-title"><b>Sulawesi Tengah</b></h4>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <a href="sulawesi_tenggara.html" class="card region-card">
+          <div class="card-body text-center">
+            <h4 class="card-title"><b>Sulawesi Tenggara</b></h4>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="sulawesi_utara.html" class="card region-card">
+          <div class="card-body text-center">
+            <h4 class="card-title"><b>Sulawesi Utara</b></h4>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="gorontalo.html" class="card region-card">
+          <div class="card-body text-center">
+            <h3 class="card-title"><b>Gorontalo</b></h3>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+    <footer class="custom-footer text-center py-4">
+      <div class="container">
+        <h3><b>Sanggar Tari Tanah Wita</b></h3>
+        <p>Sanggar Tari Tanah Wita adalah pusat pelatihan dan pertunjukan tari tradisional Sulawesi. Kami menawarkan berbagai program pelatihan bagi siapa saja yang ingin belajar dan mengembangkan keterampilan tari.</p>
+        <div class="my-3">
+          <a href="pendaftaran.html" class="btn btn-outline-dark mx-2" style="color: beige;">Pendaftaran</a>
+          <a href="informasi.html" class="btn btn-outline-dark mx-2" style="color: beige;">Informasi Lebih Lanjut</a>
+        </div>
+        <p class="mb-0">© 2024 Sanggar Tari Tanah Wita. Semua Hak Dilindungi.</p>
+      </div>
+    </footer>
+  
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
