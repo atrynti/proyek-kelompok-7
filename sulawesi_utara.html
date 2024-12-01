@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sulawesi Tengah</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+   html, body {
+      height: 100%; 
+      margin: 0;
+    }
+    body {
+      background-image: url('latar_utama.png'); 
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      min-height: 100%;
+    }
+    .navbar {
+      background-color: rgba(135, 45, 45, 0.8);
+      font-family: 'Times New Roman', Times, serif; 
+    }
+    h1.text-black {
+      text-align: center; 
+      color: black; 
+      font-weight: bold; 
+    }
+
+    p {
+      text-align: justify; 
+    }
+    .text-black {
+      color: #0e0101; 
+    }
+    .custom-container { 
+      padding: 20px;
+      border-radius: 5px;
+      background-color: rgba(236, 214, 190, 0.9); 
+    }
+    .dance-card {
+      margin: 15px 0;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      transition: transform 0.3s;
+      cursor: pointer;
+      color: inherit;
+    }
+    .dance-card:hover {
+      transform: scale(1.05); 
+    }
+    .dance-card img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px 10px 0 0;
+    }
+    .dance-card-title {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: black; 
+    transition: color 0.3s ease;
+    }
+    .dance-card-title:hover {
+        color:  rgba(135, 45, 45, 0.8);
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html" style="color: beige;"><b>KEMBALI KE BERANDA</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+  <div class="container mt-4 custom-container">
+    <h1><b>Sulawesi Tengah</b></h1>
+    <p>Jenis-jenis tarian dari Sulawesi Tengah.</p>
+
+    <div class="row">
+      <div class="col-md-4">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalWengkowKeteran">
+          <img src="tari_wengkow_keteran.png" alt="Tari Wengkow Keteran">
+          <div class="dance-card-title"><b>Tari Wengkow Keteran</b></div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalPisok">
+          <img src="tari_pisok.png" alt="Tari Pisok">
+          <div class="dance-card-title"><b>Tari Pisok</b></div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalKabasaran">
+          <img src="tari_kabasaran.png" alt="Tari Kabasaran">
+          <div class="dance-card-title"><b>Tari Kabasaran</b></div>
+        </a>
+      </div>
+      <div class="col-md-4 mt-3">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalKabela">
+          <img src="tari_kabela.png" alt="Tari Kabela">
+          <div class="dance-card-title"><b>Tari Kabela</b></div>
+        </a>
+      </div>
+      <div class="col-md-4 mt-3">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalMaengket">
+          <img src="tari_maengket.png" alt="Tari Maengket">
+          <div class="dance-card-title"><b>Tari Maengket</b></div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalWengkowKeteran" tabindex="-1" aria-labelledby="modalWengkowKeteranLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalWengkowKeteranLabel"><b>Tari Wengkow Keteran</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tari Wengkow Keteran adalah tarian tradisional yang berasal dari Sulawesi Utara, khususnya dari suku Minahasa. Tarian ini sering dipertunjukkan dalam berbagai acara adat, seperti pernikahan, festival budaya, dan perayaan penting lainnya. Tari Wengkow Keteran melambangkan kebersamaan, semangat, dan kekuatan masyarakat setempat.</p>
+          <p>Gerakan dalam Tari Wengkow Keteran cenderung dinamis dan energik, mencerminkan semangat para penari yang berinteraksi satu sama lain. Para penari, biasanya terdiri dari pria dan wanita, mengenakan pakaian adat Minahasa yang berwarna cerah dan dihiasi dengan aksesori tradisional yang indah. Tarian ini diiringi oleh musik pengiring yang menggunakan alat musik lokal seperti gendang, kolintang, dan alat musik tiup, menciptakan suasana meriah dan menggugah semangat.</p>
+          <p>Salah satu ciri khas dari Tari Wengkow Keteran adalah penggunaan gerakan yang melibatkan langkah-langkah berirama, di mana penari saling berkomunikasi dan menunjukkan kerukunan. Tarian ini tidak hanya menggambarkan kegembiraan, tetapi juga menyampaikan pesan tentang persatuan dan identitas budaya masyarakat Minahasa.</p>
+          <p>Tari Wengkow Keteran bukan hanya sekadar hiburan, tetapi juga berfungsi sebagai sarana untuk melestarikan budaya dan tradisi. Melalui pertunjukan tari ini, generasi muda diajak untuk mengenali dan menghargai warisan budaya mereka. Tarian ini menjadi salah satu simbol kekayaan budaya Sulawesi Utara yang patut dibanggakan dan dilestarikan.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/b2X_15GEGqM" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalPisok" tabindex="-1" aria-labelledby="modalPisokLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalPisokLabel"><b>Tari Pisok</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tari Pisok adalah tarian tradisional yang berasal dari Sulawesi Utara, khususnya dari suku Minahasa. Tarian ini sering dipertunjukkan dalam berbagai acara adat dan perayaan, seperti upacara pernikahan, festival budaya, dan penyambutan tamu. Tari Pisok melambangkan kebersamaan, semangat, dan kekuatan komunitas.</p>
+          <p>Gerakan dalam Tari Pisok cenderung energik dan penuh semangat. Para penari, biasanya terdiri dari pria dan wanita, mengenakan pakaian adat Minahasa yang berwarna cerah dan dihiasi dengan aksesori tradisional. Tarian ini diiringi oleh musik tradisional, termasuk alat musik seperti gendang dan kolintang, yang menciptakan suasana meriah dan menggugah semangat.</p>
+          <p>Salah satu ciri khas dari Tari Pisok adalah penggunaan gerakan tangan dan langkah kaki yang terkoordinasi dengan baik, mencerminkan keselarasan dan keterhubungan antara para penari. Tarian ini juga sering menggambarkan aktivitas sehari-hari masyarakat, sehingga memberikan makna yang lebih dalam tentang kehidupan sosial dan budaya Minahasa.</p>
+          <p>Tari Pisok tidak hanya sebagai hiburan, tetapi juga sebagai simbol identitas dan kebanggaan masyarakat Sulawesi Utara. Melalui pertunjukan tari ini, generasi muda diharapkan dapat menghargai dan melestarikan warisan budaya mereka. Tari Pisok terus dipertahankan dalam berbagai festival dan acara budaya, menjadikannya salah satu representasi penting dari kekayaan tradisi Sulawesi Utara.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/qa1Pd5lr_zM" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalKabasaran" tabindex="-1" aria-labelledby="modalKabasaranLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalKabasaranLabel"><b>Tari Kabasaran</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tari Kabasaran adalah salah satu tarian tradisional yang berasal dari Sulawesi Utara, khususnya dari suku Minahasa. Tarian ini memiliki makna yang dalam, seringkali ditampilkan dalam berbagai acara adat, seperti upacara pernikahan, festival, dan penyambutan tamu. Tari Kabasaran melambangkan semangat perjuangan, keberanian, dan kebersamaan masyarakat Minahasa.</p>
+          <p>Gerakan dalam Tari Kabasaran cenderung energik dan dinamis, menggambarkan ketangkasan serta semangat juang. Para penari, yang biasanya terdiri dari pria dan wanita, mengenakan pakaian adat Minahasa yang indah dan berwarna cerah, lengkap dengan aksesori tradisional. Tarian ini diiringi oleh alat musik tradisional, seperti gendang, kulintang, dan alat musik tiup, yang menciptakan suasana yang meriah dan penuh semangat.</p>
+          <p>Salah satu ciri khas dari Tari Kabasaran adalah penggunaan gerakan yang menggambarkan aktivitas perang dan perang tanding, yang menjadi simbol kekuatan dan keberanian. Selain itu, tarian ini juga menampilkan interaksi antara penari, menciptakan kesan kerjasama dan persatuan dalam komunitas.</p>
+          <p>Tari Kabasaran bukan hanya sekadar hiburan, tetapi juga berfungsi sebagai cara untuk melestarikan budaya dan nilai-nilai luhur masyarakat Minahasa. Melalui pertunjukan tari ini, generasi muda diajak untuk menghargai dan meneruskan warisan budaya mereka. Tari Kabasaran terus dipertahankan dan diperkenalkan di berbagai festival budaya, menjadi salah satu representasi penting dari kekayaan budaya Sulawesi Utara.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/5eb1hLupwqw" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalKabela" tabindex="-1" aria-labelledby="modalKabelaLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalKabelaLabel"><b>Tari Kabela</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tari Kabela adalah salah satu tarian tradisional yang berasal dari Sulawesi Utara, khususnya dari suku Minahasa. Tarian ini sering dipertunjukkan dalam berbagai acara adat, seperti pernikahan, festival budaya, dan upacara penyambutan tamu. Tari Kabela melambangkan kebersamaan, keindahan, dan semangat masyarakat Minahasa.</p>
+          <p>Gerakan dalam Tari Kabela cenderung lembut dan anggun, mencerminkan keindahan serta harmoni dalam kehidupan masyarakat. Para penari, biasanya terdiri dari wanita, mengenakan pakaian adat yang berwarna cerah dan dihiasi dengan aksesori tradisional. Tarian ini diiringi oleh musik pengiring yang menggunakan alat musik tradisional, seperti gendang, kolintang, dan alat musik tiup, menciptakan suasana yang meriah dan menawan.</p>
+          <p>Salah satu ciri khas dari Tari Kabela adalah gerakan tangan dan tubuh yang mengekspresikan kelembutan dan keanggunan. Tarian ini juga sering menggambarkan interaksi sosial dalam kehidupan sehari-hari, memperlihatkan nilai-nilai kebersamaan dan saling menghormati antaranggota komunitas.</p>
+          <p>Tari Kabela tidak hanya berfungsi sebagai hiburan, tetapi juga sebagai sarana untuk melestarikan budaya dan tradisi Minahasa. Melalui pertunjukan tari ini, generasi muda diharapkan dapat mengenal dan menghargai warisan budaya mereka. Tari Kabela terus dipertahankan dalam berbagai festival dan acara budaya, menjadi salah satu representasi penting dari kekayaan tradisi Sulawesi Utara.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/2PKdI6FIz9o" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalMaengket" tabindex="-1" aria-labelledby="modalMaengketLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalMaengketLabel"><b>Tari Maengket</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tari Maengket adalah salah satu tarian tradisional yang berasal dari Sulawesi Utara, khususnya dari suku Minahasa. Tarian ini sering ditampilkan dalam berbagai acara adat, seperti pernikahan, festival budaya, dan perayaan, sebagai ungkapan rasa syukur dan kebahagiaan masyarakat.</p>
+          <p>Tari Maengket dikenal dengan gerakan yang energik dan dinamis, mencerminkan semangat serta keceriaan para penari. Biasanya, para penari terdiri dari pria dan wanita yang mengenakan pakaian adat berwarna cerah, lengkap dengan aksesori tradisional yang indah. Tarian ini diiringi oleh musik pengiring yang menggunakan alat musik tradisional, seperti gendang, kolintang, dan alat musik tiup, menciptakan suasana meriah dan menggugah semangat.</p>
+          <p>Salah satu ciri khas dari Tari Maengket adalah gerakan yang melibatkan langkah-langkah berirama, di mana penari saling berinteraksi dan berkomunikasi satu sama lain. Tarian ini tidak hanya menggambarkan keceriaan, tetapi juga melambangkan rasa persatuan dan kebersamaan dalam komunitas.</p>
+          <p>Tari Maengket berfungsi sebagai sarana untuk melestarikan budaya dan tradisi Minahasa, serta mengajarkan nilai-nilai kebersamaan dan kekeluargaan kepada generasi muda. Melalui pertunjukan tari ini, masyarakat Sulawesi Utara berharap agar warisan budaya mereka tetap hidup dan dikenal oleh masyarakat luas. Tari Maengket menjadi salah satu simbol kekayaan budaya Sulawesi Utara yang patut dibanggakan dan dilestarikan.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/Tfzf9rX1OfQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
