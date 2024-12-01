@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sulawesi Selatan</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    html, body {
+      height: 100%; 
+      margin: 0;
+    }
+    body {
+      background-image: url('latar_utama.png'); 
+      background-size: cover; 
+      background-position: left; 
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      min-height: 100%;
+    }
+    .navbar {
+      background-color: rgba(135, 45, 45, 0.8);
+      font-family: 'Times New Roman', Times, serif; 
+    }
+    h1.text-black {
+      text-align: center; 
+      color: black; 
+      font-weight: bold; 
+    }
+
+    p {
+      text-align: justify; 
+    }
+    .text-black {
+      color: #0e0101; 
+    }
+    .custom-container { 
+      padding: 20px;
+      border-radius: 5px;
+      background-color: rgba(236, 214, 190, 0.9); 
+    }
+    .dance-card {
+      margin: 15px 0;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      transition: transform 0.3s;
+      cursor: pointer;
+      color: inherit;
+    }
+    .dance-card:hover {
+      transform: scale(1.05); 
+    }
+    .dance-card img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px 10px 0 0;
+    }
+    .dance-card-title {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: black; 
+    transition: color 0.3s ease; 
+    }
+    .dance-card-title:hover {
+        color:  rgba(135, 45, 45, 0.8); 
+    }
+
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html" style="color: beige;"> <b>KEMBALI KE BERANDA</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+  <div class="container mt-4 custom-container">
+    <h1><b>Sulawesi Selatan</b></h1>
+    <p>Jenis-jenis tarian dari Sulawesi Selatan.</p>
+
+    <div class="row">
+      <div class="col-md-4">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalPakarena">
+          <img src="tari_pakarena.jpeg" alt="Tari Pakarena">
+          <div class="dance-card-title"><b>Tari Pakarena</b></div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalPaduppaBosara">
+          <img src="tari_paduppa_bosara.jpeg" alt="Tari Paduppa Bosara">
+          <div class="dance-card-title"><b>Tari Paduppa Bosara</b></div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalMappadendang">
+          <img src="tari_mappadendang.jpeg" alt="Tari Mappadendang">
+          <div class="dance-card-title"><b>Tari Mappadendang</b></div>
+        </a>
+      </div>
+      <div class="col-md-4 mt-3">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalPagellu">
+          <img src="tari_pa’gellu’.jpeg" alt="Tari Pa’gellu’">
+          <div class="dance-card-title"><b>Tari Pa’gellu’</b></div>
+        </a>
+      </div>
+      <div class="col-md-4 mt-3">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalTongkonan">
+          <img src="tari_tongkonan.jpeg" alt="Tari Tongkonan">
+          <div class="dance-card-title"><b>Tari Tongkonan</b></div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Modals for Dance Descriptions -->
+  <div class="modal fade" id="modalPakarena" tabindex="-1" aria-labelledby="modalPakarenaLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalPakarenaLabel"><b>Tari Pakarena</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tari Pakarena merupakan salah satu tarian tradisional dari suku Bugis-Makassar, Sulawesi Selatan. Tarian ini sudah ada sejak ratusan tahun lalu dan memiliki makna mendalam sebagai bentuk penghormatan serta simbol keharmonisan antara manusia dan alam. Tari Pakarena sering ditampilkan dalam berbagai upacara adat, seperti pesta rakyat, penyambutan tamu kehormatan, dan ritual keagamaan.</p>
+          <p>Tari ini dilakukan oleh penari wanita yang mengenakan pakaian adat khas Bugis-Makassar. Gerakan Tari Pakarena lembut, anggun, dan teratur, mencerminkan kehalusan serta kesabaran wanita. Tarian ini juga diiringi oleh musik tradisional yang disebut gandrang, yang terdiri dari alat musik gendang dan suling. Ritme musiknya yang dinamis mengiringi setiap gerakan penari, menciptakan suasana yang khidmat dan elegan.</p>
+          <p>Gerakan Tari Pakarena terdiri dari beberapa pola yang melambangkan siklus kehidupan, mulai dari kelahiran hingga kematian. Filosofi tarian ini juga menekankan pentingnya hubungan manusia dengan alam, serta mengajarkan nilai-nilai moral dan etika kepada masyarakat.</p>
+          <p>Tari Pakarena tidak hanya menjadi simbol budaya lokal, tetapi juga menjadi daya tarik wisata, yang memperkenalkan kekayaan budaya Sulawesi Selatan ke pentas nasional maupun internasional. Upaya pelestarian tari ini terus dilakukan melalui berbagai festival dan ajang kesenian, sehingga generasi muda tetap dapat mengenal dan menjaga warisan leluhur ini.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/WDRWi_UHTOM" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalPaduppaBosara" tabindex="-1" aria-labelledby="modalPaduppaBosaraLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalPaduppaBosaraLabel"><b>Tari Paduppa Bosara</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tari Paduppa Bosara adalah tarian tradisional yang berasal dari Sulawesi Selatan, khususnya dari kebudayaan Bugis-Makassar. Tarian ini memiliki makna mendalam sebagai simbol penghormatan dan penyambutan tamu dengan penuh rasa hormat dan kehormatan. Dalam budaya Bugis-Makassar, bosara adalah wadah tradisional yang digunakan untuk menyajikan makanan atau kue-kue khas, yang melambangkan keramahan dan kesejahteraan.</p>
+          <p>Tari Paduppa Bosara biasanya ditampilkan pada acara-acara adat seperti pernikahan, upacara penyambutan tamu penting, dan pesta rakyat. Tarian ini dibawakan oleh para penari wanita yang mengenakan pakaian adat Bugis-Makassar berwarna cerah dengan kain sarung khas. Mereka membawa bosara dalam tarian sebagai bagian penting dari simbol keramahan dan rasa syukur.</p>
+          <p>Gerakan tarian ini anggun dan penuh kelembutan, seiring dengan iringan musik tradisional yang menenangkan. Setiap gerakan tangan dan langkah kaki mencerminkan ketulusan hati serta keikhlasan masyarakat Bugis-Makassar dalam menyambut tamu. Tari Paduppa Bosara tidak hanya menonjolkan keindahan gerakan, tetapi juga sarat akan nilai-nilai budaya yang menjunjung tinggi etika dan adat istiadat lokal.</p>
+          <p>Sebagai salah satu warisan budaya, Tari Paduppa Bosara terus dipertahankan dan dilestarikan melalui berbagai acara kesenian dan festival budaya, sehingga dapat dikenal oleh generasi muda dan dunia internasional. Tarian ini menjadi cerminan penting dari kearifan lokal Sulawesi Selatan yang kaya akan tradisi dan nilai-nilai luhur.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/7TI7vJtSoiM" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalMappadendang" tabindex="-1" aria-labelledby="modalMappadendangLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalMappadendangLabel"><b>Tari Mappadendang</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tari Mappadendang merupakan salah satu tarian tradisional yang berasal dari suku Bugis di Sulawesi Selatan. Tarian ini biasanya ditampilkan sebagai bagian dari upacara syukuran setelah panen padi, sebagai ungkapan rasa syukur kepada Tuhan atas hasil panen yang melimpah. Kata "Mappadendang" sendiri berasal dari kata "padendang," yang berarti memukul atau menabuh, mengacu pada aktivitas menumbuk padi secara berirama dalam ritual tersebut.</p>
+          <p>Tari Mappadendang dilakukan oleh sekelompok pria dan wanita yang menari diiringi bunyi tabuhan lesung (alat tradisional untuk menumbuk padi) yang dimainkan secara ritmis. Irama tabuhan ini menjadi pengiring utama dalam tarian, menciptakan suasana meriah dan penuh kegembiraan. Selain tabuhan lesung, alat musik tradisional lainnya juga digunakan untuk menambah semarak suasana.</p>
+          <p>Gerakan tarian ini energik dan dinamis, mencerminkan semangat masyarakat dalam menyambut hasil panen. Para penari, yang mengenakan pakaian adat Bugis berwarna cerah, menari dengan gerakan yang terkoordinasi, melambangkan kebersamaan dan kerja keras selama proses bercocok tanam hingga panen.</p>
+          <p>Tari Mappadendang bukan hanya sebuah pertunjukan seni, tetapi juga memiliki makna sosial yang penting dalam budaya Bugis. Tarian ini menjadi ajang untuk mempererat tali persaudaraan antaranggota masyarakat dan sebagai pengingat akan pentingnya bersyukur atas berkah alam.</p>
+          <p>Sebagai bagian dari tradisi yang terus diwariskan, Tari Mappadendang kerap ditampilkan dalam festival budaya dan upacara adat, menjaga agar nilai-nilai kebersamaan, rasa syukur, dan kekayaan tradisi Sulawesi Selatan tetap hidup di tengah masyarakat.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/4gNRGwLi-Jw" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalPagellu" tabindex="-1" aria-labelledby="modalPagelluLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalPagelluLabel"><b>Tari Pa’gellu’</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tari Pa’gellu’ adalah salah satu tarian tradisional yang berasal dari Tana Toraja, Sulawesi Selatan. Tarian ini dikenal sebagai tarian sukacita yang biasanya ditampilkan dalam acara-acara perayaan, seperti upacara adat, pesta syukuran, atau penyambutan tamu penting. Kata “gellu’” dalam bahasa Toraja berarti gembira atau senang, sehingga Tari Pa’gellu’ melambangkan kegembiraan dan kebahagiaan.</p>
+          <p>Tari Pa’gellu’ dibawakan oleh penari wanita yang mengenakan busana adat Toraja yang khas, lengkap dengan perhiasan emas dan kain tenun yang indah. Gerakan tarian ini lembut dan anggun, namun tetap penuh semangat, mengikuti irama musik tradisional yang dimainkan menggunakan gendang, gong, dan suling. Setiap gerakan tangan dan kaki para penari mencerminkan keceriaan dan kebersamaan.</p>
+          <p>Tarian ini memiliki fungsi sosial yang penting, tidak hanya sebagai hiburan, tetapi juga sebagai sarana untuk memperkuat ikatan komunitas dalam masyarakat Toraja. Tari Pa’gellu’ juga sering ditampilkan dalam upacara Rambu Tuka’, yaitu upacara adat yang menandakan kebahagiaan atau acara syukuran dalam kehidupan masyarakat Toraja.</p>
+          <p>Seiring perkembangan zaman, Tari Pa’gellu’ tetap dipertahankan dan dilestarikan sebagai bagian dari identitas budaya Tana Toraja. Tarian ini sering kali dipertunjukkan dalam berbagai festival budaya, baik di tingkat nasional maupun internasional, sehingga memperkenalkan keindahan dan kekayaan budaya Toraja kepada dunia.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/SlZV-TO3Pzs" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalTongkonan" tabindex="-1" aria-labelledby="modalTongkonanLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalTongkonanLabel"><b>Tari Tongkonan</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tari Tongkonan adalah tarian tradisional yang berasal dari Tana Toraja, Sulawesi Selatan. Tarian ini terinspirasi dari rumah adat khas Toraja yang disebut Tongkonan, yang memiliki makna mendalam sebagai simbol persatuan, identitas, dan pusat kehidupan sosial masyarakat Toraja. Tongkonan sendiri merupakan rumah leluhur yang dihormati, dan keberadaannya sangat sakral bagi masyarakat setempat.</p>
+          <p>Tari Tongkonan sering ditampilkan dalam upacara adat dan acara budaya di Tana Toraja, seperti Rambu Solo' (upacara kematian) dan Rambu Tuka' (upacara syukuran), serta dalam perayaan-perayaan penting lainnya. Tarian ini menggambarkan kebersamaan, gotong royong, dan nilai-nilai kekerabatan yang erat dalam kehidupan masyarakat Toraja.</p>
+          <p>Penari Tari Tongkonan biasanya mengenakan pakaian adat khas Toraja dengan hiasan kepala yang menyerupai bentuk atap Tongkonan. Gerakan tarian ini anggun dan penuh makna, mencerminkan kehidupan masyarakat Toraja yang harmonis dan menghormati leluhur. Setiap gerakan mengekspresikan rasa hormat, kebersamaan, serta semangat gotong royong yang menjadi ciri khas budaya Toraja.</p>
+          <p>Dengan iringan musik tradisional seperti gendang, gong, dan suling, Tari Tongkonan tidak hanya menjadi hiburan, tetapi juga sarana untuk memperkenalkan budaya Toraja kepada dunia. Tarian ini terus dilestarikan sebagai warisan budaya dan menjadi bagian penting dalam identitas masyarakat Toraja yang kaya akan tradisi.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/PeHaQy32mw8" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
