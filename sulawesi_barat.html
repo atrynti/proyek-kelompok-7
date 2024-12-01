@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sulawesi Barat</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    html, body {
+      height: 100%; 
+      margin: 0;
+    }
+    body {
+      background-image: url('latar_utama.png'); 
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      min-height: 100%;
+    }
+    .navbar {
+      background-color: rgba(135, 45, 45, 0.8);
+      font-family: 'Times New Roman', Times, serif; 
+    }
+    .text-black {
+      color: #0e0101; 
+    }
+    .custom-container {
+      padding: 20px; 
+      border-radius: 5px;
+      background-color: rgba(236, 214, 190, 0.9); 
+    }
+    .dance-card {
+      margin: 15px 0;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      transition: transform 0.3s;
+      cursor: pointer;
+      color: inherit;
+    }
+    .dance-card:hover {
+      transform: scale(1.05); 
+    }
+    .dance-card img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px 10px 0 0;
+    }
+    .dance-card-title {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: black; 
+    transition: color 0.3s ease; 
+    }
+    .dance-card-title:hover {
+        color:  rgba(135, 45, 45, 0.8);
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html" style="color: beige;"><b>KEMBALI KE BERANDA</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+  <div class="container mt-4 custom-container">
+    <h1 class="text-black" align="center"><b>Sulawesi Barat</b></h1>
+    <p align="center">Jenis-jenis tarian dari Sulawesi Barat.</p>
+
+    <div class="row">
+      <div class="col-md-4">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalPatuddu">
+          <img src="tari_patuddu.png" alt="Tari Patuddu">
+          <div class="dance-card-title"><b>Tari Patuddu</b></div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalSayyangTomindaiq">
+          <img src="tari_sayyang_tomindaiq.png" alt="Tari Sayyang Tomindaiq">
+          <div class="dance-card-title"><b>Tari Sayyang Tomindaiq</b></div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalLipaSabbe">
+          <img src="tari_lipa_sabbe.png" alt="Tari Lipa Sabbe">
+          <div class="dance-card-title"><b>Tari Lipa Sabbe</b></div>
+        </a>
+      </div>
+      <div class="col-md-4 mt-3">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalNibuniang">
+          <img src="tari_nibuniang.png" alt="Tari Nibuniang">
+          <div class="dance-card-title"><b>Tari Nibuniang</b></div>
+        </a>
+      </div>
+      <div class="col-md-4 mt-3">
+        <a href="#" class="dance-card" data-toggle="modal" data-target="#modalPanetteq">
+          <img src="tari_panetteq.png" alt="Tari Panetteq">
+          <div class="dance-card-title"><b>Tari Panetteq</b></div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="modal fade" id="modalPatuddu" tabindex="-1" aria-labelledby="modalPatudduLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalPatudduLabel"><b>Tari Patuddu</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p align="justify">Tari Patuddu adalah tarian tradisional yang berasal dari Sulawesi Barat, khususnya dari suku Mandar. Tarian ini sering ditampilkan dalam acara-acara adat dan penyambutan tamu, serta perayaan kebudayaan. Tari Patuddu melambangkan kehalusan budi, kecantikan, serta keramahan perempuan Mandar.</p>
+          <p align="justify">Tarian ini dibawakan oleh para penari wanita yang mengenakan pakaian adat berwarna cerah, lengkap dengan kipas sebagai properti utama yang dibawa selama menari. Kipas tersebut digunakan untuk memperindah gerakan tangan yang anggun dan dinamis. Gerakan dalam Tari Patuddu lembut dan harmonis, mencerminkan sifat kelembutan dan keramahtamahan masyarakat Mandar.</p>
+          <p align="justify">Tari Patuddu biasanya diiringi oleh musik tradisional Mandar yang menambah suasana keagungan dan kekhidmatan dalam setiap pertunjukannya. Musik ini mencerminkan kearifan lokal dan semangat budaya yang hidup dalam masyarakat Sulawesi Barat.</p>
+          <p align="justify">Sebagai salah satu simbol budaya Mandar, Tari Patuddu tidak hanya menjadi hiburan semata, tetapi juga sarat dengan makna sosial. Tarian ini menggambarkan kekayaan budaya dan nilai-nilai lokal yang terus dijaga dan dilestarikan oleh masyarakat Sulawesi Barat.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/XNIIH8P45Tg" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalSayyangTomindaiq" tabindex="-1" aria-labelledby="modalSayyangTomindaiqLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalSayyangTomindaiqLabel"><b>Tari Sayyang Tomindaiq</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p align="justify">Tari Sayyang Tomindaiq adalah tarian tradisional dari Sulawesi Barat yang melambangkan keindahan dan kebudayaan suku Mandar. Tarian ini sering dipertunjukkan pada acara adat, memperlihatkan keramahan dan keanggunan masyarakat Mandar.</p>
+          <p align="justify">Gerakan dalam tarian ini lembut dan harmonis, diiringi dengan musik tradisional Mandar yang menambah suasana. Tari Sayyang Tomindaiq menjadi salah satu identitas budaya yang terus dilestarikan.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/mn8Lw9jt0js" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalLipaSabbe" tabindex="-1" aria-labelledby="modalLipaSabbeLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalLipaSabbeLabel"><b>Tari Lipa Sabbe</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p align="justify">Tari Lipa’ Sabbe adalah tarian tradisional yang berasal dari suku Mandar di Sulawesi Barat. Tarian ini dikenal dengan keindahan gerakannya yang anggun, di mana penari mengenakan lipa’ sabbe, kain sarung sutra khas Mandar. Lipa’ sabbe memiliki nilai budaya yang tinggi dan merupakan simbol kehalusan, kecantikan, serta kebanggaan masyarakat Mandar.</p>
+          <p align="justify">Tari Lipa’ Sabbe biasanya ditampilkan dalam upacara adat dan penyambutan tamu penting. Tarian ini dibawakan oleh para penari wanita yang mengenakan pakaian adat Mandar berwarna cerah dan mempesona, dengan lipa’ sabbe sebagai busana utama. Gerakan tariannya lemah lembut dan selaras dengan irama musik tradisional Mandar, seperti gendang dan gong, yang memberikan nuansa harmoni dan kedamaian.</p>
+          <p align="justify">Makna di balik Tari Lipa’ Sabbe adalah penghormatan terhadap budaya dan adat istiadat Mandar, serta penggambaran kearifan lokal dalam kehidupan sehari-hari. Kain lipa’ sabbe sendiri bukan hanya busana, tetapi juga simbol status sosial dan identitas budaya masyarakat Mandar.</p>
+          <p align="justify">Tari Lipa’ Sabbe terus dilestarikan melalui berbagai pertunjukan budaya, baik di Sulawesi Barat maupun di panggung nasional dan internasional. Tarian ini menjadi salah satu cara untuk memperkenalkan kekayaan budaya Mandar serta menjaga tradisi agar tetap hidup di tengah perkembangan zaman.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/hMAVaP_vqrQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalNibuniang" tabindex="-1" aria-labelledby="modalNibuniangLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalNibuniangLabel"><b>Tari Nibuniang</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p align="justify">Tari Nibuniang merupakan salah satu tarian tradisional dari Sulawesi Barat yang berasal dari kebudayaan suku Mandar. Tarian ini memiliki makna yang erat kaitannya dengan ritual adat dan upacara keagamaan. Tari Nibuniang biasanya ditampilkan dalam konteks upacara penyembuhan atau ritual yang bertujuan untuk memohon keselamatan dan perlindungan dari leluhur atau kekuatan supranatural.</p>
+          <p align="justify">Tarian ini dibawakan oleh penari wanita yang mengenakan pakaian adat Mandar. Gerakan tari Nibuniang cenderung lambat dan khidmat, mencerminkan suasana sakral dan penuh makna. Setiap gerakan tangan, kaki, dan tubuh memiliki simbol tertentu yang berhubungan dengan permohonan kepada roh leluhur. Musik pengiring yang dimainkan biasanya menggunakan alat musik tradisional seperti gendang dan gong, memberikan nuansa magis dan mistis yang memperkuat suasana ritual.</p>
+          <p align="justify">Tari Nibuniang tidak hanya sekadar pertunjukan seni, tetapi juga mengandung nilai spiritual yang mendalam. Tarian ini mencerminkan hubungan erat antara manusia dengan kekuatan alam dan leluhur dalam kepercayaan tradisional masyarakat Mandar. Sebagai bagian dari warisan budaya, Tari Nibuniang terus dilestarikan dan dipelajari oleh generasi muda agar tradisi ini tidak hilang di tengah modernisasi.</p>
+          <p align="justify">Tari Nibuniang merupakan salah satu contoh kekayaan budaya Sulawesi Barat yang memiliki nilai ritual tinggi dan masih menjadi bagian penting dari kehidupan masyarakat adat di sana.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/27XqQcLD75o" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalPanetteq" tabindex="-1" aria-labelledby="modalPanetteqLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalPanetteqLabel"><b>Tari Panetteq</b></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p align="justify">Tari Panetteq adalah salah satu tarian tradisional yang berasal dari suku Mandar di Sulawesi Barat. Tarian ini memiliki makna yang erat kaitannya dengan kehidupan masyarakat pesisir, karena menggambarkan aktivitas keseharian nelayan dan masyarakat pantai. Tari Panetteq sering dipertunjukkan dalam berbagai upacara adat dan acara perayaan, sebagai bentuk syukur dan kebersamaan masyarakat Mandar.</p>
+          <p align="justify">Gerakan dalam Tari Panetteq cukup dinamis, mencerminkan semangat kerja keras dan gotong royong masyarakat pesisir. Para penari, yang biasanya terdiri dari pria dan wanita, bergerak selaras mengikuti irama musik tradisional Mandar. Musik pengiring seperti gendang, gong, dan alat musik tiup khas Mandar mengiringi setiap gerakan, menciptakan suasana meriah dan penuh energi.</p>
+          <p align="justify">Secara simbolis, Tari Panetteq melambangkan kebersamaan dan semangat kerja keras yang menjadi ciri khas masyarakat Mandar, terutama yang tinggal di wilayah pesisir. Tarian ini juga sering dianggap sebagai penghormatan terhadap laut dan alam, yang menjadi sumber kehidupan utama masyarakat setempat.</p>
+          <p align="justify">Tari Panetteq tidak hanya menjadi bagian dari upacara adat, tetapi juga ditampilkan dalam berbagai festival budaya sebagai upaya pelestarian tradisi. Tarian ini terus diwariskan dari generasi ke generasi, menjadikannya salah satu representasi budaya Sulawesi Barat yang kaya akan nilai-nilai lokal dan filosofi hidup yang erat dengan alam.</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/T5OUZh5eY6M" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
